@@ -12,7 +12,24 @@ The task is to design an autonomous drone that navigates in a complex static env
 5. Multiple Aruco Markers (false) may or may not be provided. The drone has to correctly identify the Aruco Marker based on the ID provided before landing. Correct Aruco ID will be ‘0’ in all the world.
 6. The drone model will be provided with a forward-facing depth camera and downward-facing RGB camera only (Any other sensors cannot be used).
 7. The flight should be strictly restricted to a height of 5m only.
+***
+# Images
+### Whole projects divided into three worlds.
 
+#### World 1
+
+![alt image](https://github.com/amanagrawal5510/DRDO-Based-Obstacle-Avioding-Drone/blob/main/Images/World%201/Screenshot%20from%202021-03-24%2000-09-26.png)
+***
+#### World 2
+
+![alt image](https://github.com/amanagrawal5510/DRDO-Based-Obstacle-Avioding-Drone/blob/main/Images/World%202/Screenshot%20from%202021-03-13%2004-00-07.png)
+
+![alt image](https://github.com/amanagrawal5510/DRDO-Based-Obstacle-Avioding-Drone/blob/main/Images/World%202/Screenshot%20from%202021-03-24%2000-07-46.png)
+***
+#### World 3
+
+![alt image](https://github.com/amanagrawal5510/DRDO-Based-Obstacle-Avioding-Drone/blob/main/Images/World%203/Screenshot%20from%202021-03-24%2000-06-45.png)
+***
 # SOFTWARE SPECIFICATIONS
 1. Ubuntu 18.04
 2. ROS Melodic
@@ -20,4 +37,4 @@ The task is to design an autonomous drone that navigates in a complex static env
 4. Ardupilot Firmware
 5. Python or C++
 6. Dronekit
-
+***
